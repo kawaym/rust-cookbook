@@ -2,7 +2,7 @@ use rand::Rng;
 use std::cmp::Ordering;
 use std::io;
 
-pub struct Guess {
+struct Guess {
     value: i32,
 }
 
